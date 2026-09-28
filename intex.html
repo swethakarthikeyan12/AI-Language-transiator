@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title> Transation AI Tool</title>
+        <link rel="stylesheet" href="AI file.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>  AI Language translator</h1>
+            <div class="translator box">
+                
+                <div class="language selector">
+                    <label>From:</label>
+                    <select id="sourceLanguage">
+                        <option value="en">English</option>
+                        <option value="ta">Tamil</option>
+                        <option value="hi">Hindi</option>
+                        <option value="te">Telugu</option>
+                    </select>
+                    <button id="swapBtn">swap</button>
+                    <label>To:</label>
+                    <select id="targetLanguage">
+                        <option  value="ta">Tamil</option>
+                        <option  value="en">English</option>
+                        <option  value="hi">Hindi</option>
+                        <option  value="te">telugu</option>
+                    </select>
+                </div>
+                <textarea id="inputText" placeholder="enter text to translate...">
+                </textarea><br>
+                <button id="translateBtn">translate</button>
+                <br><textarea id="outputText" placeholder="transation will appear here.." readonly></textarea>
+                <br>
+                <button id="copyBtn">copy transation</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
